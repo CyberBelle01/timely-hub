@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#F3F4F6;
+    
+    
+}
+
+.login-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.login-box {
+    max-width: 460px;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 0;
+
+    
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    background-color: #FFFFFF;
+}
+.logo {
+    width: 200px;
+    height: 100px;
+    
+}
+
+.brand-name {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0D9165
+
+}
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.login-box h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #303447;
+
+}
+.login-box label {
+    display: bold;
+    font-size: 14;
+    margin-bottom: 8px;
+    color: black;
+
+}
+.login-box input{
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border:  solid black;
+    border-radius: 7px;
+    font-size: 15px;
+    
+}
+.forgot-password {
+    text-align: right;
+    margin-top: 2px;
+    margin-bottom: 25px;
+    color: #0D9165;
+}
+.login-box button {
+    width: 100%;
+    padding: 14px;
+    border-radius: 14px;
+    background-color: #17B883;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:Poppins, sans-serif;
+    
+}
+.no-password {
+    text-align: center;
+    margin-top: 25px;
+    color: #303447;
+    font-size: 14px;
+}
+.submit {
+    color: white;
+    background-color: #0D9165;
+    border: 1px solid transparent;
+
+}
+.submit:hover{
+    color: #059669;
+    border-color: #059669;
+    border-radius: 40px;
+    background-color: white;
+    transition-duration: 0.5s;
+}
+.signup {
+    text-align: center;
+    margin-top: 25px;
+    color: #0D9165;
+    font-size: 14px;
+}
